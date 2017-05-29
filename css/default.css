@@ -10,7 +10,7 @@ body{
 }
 
 .breadcrumbs li:befre{
-  content:">";
+  content:" > ";
 }
 
 .breadcrumbs li:first-child:befre{
