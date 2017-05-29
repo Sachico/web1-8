@@ -25,8 +25,12 @@ body{
   background: darkgreen;
   color: white;
 }
-#gnav a:hover{
-  background: lightgreen;
+#gnav div.img{
+  display:table-cell;
+  vertical-align: middle;
+  background: url(;vegitable01 (1).zip)
+    width: 55px;
+  height:46px;
   color: black;
 }
 #gnav a.selected{
@@ -44,5 +48,10 @@ body{
 }
 
 .breadcrumbs li:first-child:befre{
-  content:"";
-}
+  content:""}
+
+div.img#home{background-position:0 0px;}
+div.img#content1{background-position:0 -46px;}
+div.img#content2{background-position:0 -92px;}
+div.img#help{background-position:0 -138px;}
+div.img#fag{background-position:0 -184px;}
