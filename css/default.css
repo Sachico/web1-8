@@ -28,8 +28,8 @@ body{
 #gnav div.img{
   display:table-cell;
   vertical-align: middle;
-  background: url(;vegitable01 (1).zip)
-    width: 55px;
+  background: url(../img/vegitable01-001.gif);
+  width: 55px;
   height:46px;
   color: black;
 }
@@ -43,11 +43,11 @@ body{
   list-style-type: none;
 }
 
-.breadcrumbs li:befre{
+.breadcrumbs li:before{
   content:" > ";
 }
 
-.breadcrumbs li:first-child:befre{
+.breadcrumbs li:first-child:before{
   content:""}
 
 div.img#home{background-position:0 0px;}
